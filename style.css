@@ -47,9 +47,9 @@ transform: translate(-50%, -50%);
 .searchform {
 	width: 400px;
 	margin: 0 auto;
-	top: 70%;
+	top: 60%;
 	left: 50%;
-	transform: translate(-50%, 0);
+	transform: translate(-50%, 5%);
 	position: absolute;
 }
 
