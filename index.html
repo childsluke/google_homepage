@@ -3,6 +3,7 @@
 <head>
 <!-- -->
 <link href="style.css" type="text/css" rel="stylesheet">
+<script type="text/javascript" src="feelingLuckyClicked.js"></script>
 
 <title>Google</title>
 </head>
@@ -28,11 +29,12 @@
 	<img src="googlelogo.png">
 </div>
 
-<form class="searchform googlefont" method="get" action=""> 
+<form class="searchform googlefont" id="googleSearchForm" method="get" action="https://www.google.com/search?"> 
 	<div class="searchform">
-		<input type="text" name="search" class="searchfield">
-		<input type="button" name="submitButton" id="submitButton" value="Google Search" class="button">
-		<input type="button" name="feelingLuckyButton" id="feelingLuckyButton" value="I'm Feeling Lucky!" class="button">
+		<input type="text" name="q" class="searchfield">
+		<button type="submit" id="submitButton" class="button">Google Search</button>
+		<input type="button" name="feelingLuckyButton" id="feelingLuckyButton" value="I'm Feeling Lucky!" 
+		class="button" onclick="feelingLuckyClicked()">
 	</div>
 </form>
 
