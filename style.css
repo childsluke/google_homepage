@@ -1,0 +1,92 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.googlefont {
+	font-family: arial;
+	font-size: 13px;
+}
+
+.leftnav{
+	
+	float: left;
+	margin-left: 2%;
+}
+
+.rightnav {
+	float: right;
+	margin-right: 2%;
+}
+
+li {
+	display: inline-block;
+	margin: 10% 10px 10px 0;
+}
+
+ul a {
+	color: #555555;
+	text-decoration: none;
+}
+
+ul img {
+	vertical-align: middle;
+}
+
+.googlelogo {
+
+position: fixed;
+top: 50%;
+left: 50%;
+
+transform: translate(-50%, -50%);
+
+}
+
+.searchform {
+	width: 400px;
+	margin: 0 auto;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, 0);
+	position: absolute;
+}
+
+.searchfield {
+	width: 100%;
+	display: block;
+	margin-bottom: 3%;
+	border-radius: 25px;
+	font-size: 20px;
+	padding: 2% 10% 2% 10%;
+	
+	background-image: url(magnifier.png), url(mic.png);
+	background-repeat: repeat-y;
+	background-position: left, right;
+	
+	border: 1px solid #dddddd;
+}
+
+.button{
+	width: 45%;
+	margin-left: 3%;
+	background-color: #eeeeee;
+	border-style: none;
+	color: #555555;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+#footer {
+	position: absolute;
+	bottom: 1%;
+	width: 99%;
+	height: 2.5rem;
+	background-color: #eeeeee;
+	border-top: 2px solid #cccccc;
+}
+
+#footer li {
+	margin-top: 1em;
+}
